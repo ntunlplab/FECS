@@ -8,12 +8,16 @@ This is the official repository of our paper [Fidelity-Enriched Contrastive Sear
 
 ### Try FECS decoding with Huggingface 🤗
 Steps:
-1. Install transformers version 4.24.0
+1. Install ```transformers``` version ```4.24.0```
+   
 2. Integrate FECS into the transformers package by the following command
+   
     ```
     cp src/generation_utils.py [your_environment_path]/python3.X/site-packages/transformers/generation_utils.py
     ```
+    
 3. Try FECS with the auto-regressive LMs of your choice. Following is an example on the abstractive summarization task.
+   
     ```python
     import torch
     from transformers import AutoTokenizer, AutoModelForCausalLM
