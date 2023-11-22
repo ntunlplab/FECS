@@ -6,7 +6,7 @@ This is the official repository of our paper [Fidelity-Enriched Contrastive Sear
 
 ---
 
-### Try FECS decoding with Huggingface 🤗
+## Try FECS decoding with Huggingface 🤗
 Steps:
 1. Install ```transformers``` version ```4.24.0```
    
