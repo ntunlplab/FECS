@@ -4,6 +4,10 @@ This is the official repository of our paper [Fidelity-Enriched Contrastive Sear
 
 *TL;DR*: This work proposes FECS, a novel decoding method with context-aware regularization terms to mitigate hallucination while preserving generation diversity.
 
+<p align="center">
+   <img src="https://github.com/ntunlplab/FECS/assets/106149032/31fd533b-9915-4a96-a10b-91be3748ef6c" width=50% height=50%>
+</p>
+
 ---
 
 ## Try FECS decoding with Huggingface 🤗
